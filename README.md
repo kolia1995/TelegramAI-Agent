@@ -5,16 +5,6 @@ This project demonstrates an agent architecture that works with Telegram, NLP, d
 
 ---
 
-## 🛠 Libraries Used
-
-- **groq** — connects to LLM for generating responses.  
-- **psycopg2** — PostgreSQL integration for storing chat history and user memory.  
-- **spacy** — NLP for intent recognition and text processing.  
-- **dotenv** — loading environment variables from `.env`.  
-- **aiogram** — Telegram integration, command and message handling.  
-
----
-
 ## 🧠 Key Features
 
 - **Personalized User Memory**  
@@ -119,6 +109,25 @@ Telegram
 
 ---
 
+## 🛠 Libraries Used
+
+- **groq** — connects to LLM for generating responses.  
+- **psycopg2** — PostgreSQL integration for storing chat history and user memory.  
+- **spacy** — NLP for intent recognition and text processing.  
+- **dotenv** — loading environment variables from `.env`.  
+- **aiogram** — Telegram integration, command and message handling.  
+
+---
+
+## 🌐 External APIs Used
+
+- **Weatherstack** — real-time weather data for cities (temperature, wind, humidity, etc.)  
+- **Exchangerate.host** — currency conversion between different currencies  
+- **NewsAPI.org** — fetches latest news articles and headlines  
+- **OpenWeatherMap** — geolocation API to convert city names to coordinates  
+- **RestCountries** — retrieves country data and currency codes  
+- **Groq / OpenAI-compatible LLM** — generates AI responses based on user input
+
 ## 🔐 Environment Variables
 
 Create a `.env` file:
@@ -166,3 +175,4 @@ python main.py
 * Advanced memory ranking
 * Multi-tool parallel execution
 * Rate limiting & security hardening
+
