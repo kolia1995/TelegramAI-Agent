@@ -56,7 +56,7 @@ Formatted Response
 ↓
 Telegram
 
-```id="rbldyb-en"
+```
 
 ### Architectural Principles
 
@@ -103,7 +103,7 @@ Telegram
 ├── main.py            # Application entry point
 └── f.txt              # Temporary / test file
 
-```id="bdjob9-en"
+```
 
 ---
 
@@ -132,7 +132,7 @@ WEATHER_API_KEY=
 NEWS_API_KEY=
 CURRENCY_API_KEY=
 
-````id="srb7ed-en"
+````
 
 ---
 
@@ -143,6 +143,7 @@ git clone <repository>
 cd project
 pip install -r requirements.txt
 python main.py
+````
 
 ---
 
@@ -165,5 +166,3 @@ python main.py
 * Advanced memory ranking
 * Multi-tool parallel execution
 * Rate limiting & security hardening
-
-```
